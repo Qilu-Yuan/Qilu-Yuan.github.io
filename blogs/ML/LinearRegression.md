@@ -150,7 +150,7 @@ $$
 3. 求解最优*** w\****
 
 $$
-\ \ \ \frac{\part}{\partial \bold{w}} \ell (\bold{X,y,w}) = 0
+\ \ \ \frac{\partial}{\partial \bold{w}} \ell (\bold{X,y,w}) = 0
 \\\Leftrightarrow \frac{1}{n}(\bold{y-Xw})^T\bold{X} = 0
 \\\Leftrightarrow  \bold{w^*} = (\bold{X}^T \bold{X})^{-1}\bold{X}^T \bold{y}
 $$
@@ -193,7 +193,7 @@ $$
  x_1\\x_2
 \\.\\.\\.
 \\x_n
-\end{bmatrix}           \bigtriangledown f_x(\bold{x}) = \frac{\partial y}{\partial \bold x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
+\end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \bold x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
 $$
 
 
