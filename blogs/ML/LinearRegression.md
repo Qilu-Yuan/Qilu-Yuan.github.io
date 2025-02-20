@@ -63,13 +63,13 @@ one-hot编码<br>
 
 1. 给定n维输入<br>
    $$
-   \bold{x} = [x_1,x_2,...,x_n]^T
+   \mathtt{x} = [x_1,x_2,...,x_n]^T
    $$
 
 2. 线性模型有一个**n维权重**和一个**标量偏差**<br>
 
 $$
-\bold{w} = [w_1,w_2,...,w_n]^T , b
+\matht{w} = [w_1,w_2,...,w_n]^T , b
 $$
 
 3. 输出是输入的**加权和**<br>
@@ -80,7 +80,7 @@ $$
 
 4. 向量形式<br>
    $$
-   y=<\bold{w,x}>+b
+   y=<\mathtt{w,x}>+b
    $$
  
 
@@ -96,9 +96,9 @@ $$
 
 3. 假设有 n 个样本，损失$L = \frac{1}{n}\sum_n e_n$<br>
 
-4. 损失L是关于w和b的函数：$L(w,b)$<br>
+4. 损失L是关于w和b的函数：$L(w,b)$ <br>
 
-5. 优化目标：找到使得损失函数最小的参数 $w$ 和$b$：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$<br>
+5. 优化目标：找到使得损失函数最小的参数 $w$ 和$b$：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$ <br>
 
 
 
@@ -131,28 +131,28 @@ $$
 
 <img src="https://qilu-yuan.github.io/figure/LinearRegression/1.png" alt="1" style="zoom: 30%;" />
 
-多元线性回归的一般形式为：$y=<\bold{w},\bold{x}>+b$<br>
+多元线性回归的一般形式为：$y=<\matht{w},\matht{x}>+b$<br>
 
 1. 首先添加一列全为1的特征，同时给权重向量也添加一个维度值为b，即：<br>
 
 $$
-\bold{X} \gets [\bold{X},1] \ \ \bold{w} \gets \begin{bmatrix}
-\bold{w}\\ b
+\matht{X} \gets [\matht{X},1] \ \ \matht{w} \gets \begin{bmatrix}
+\matht{w}\\ b
 \end{bmatrix}
 $$
 
 2. 损失函数：<br>
 
 $$
-\ell (\bold{X,y,w}) = \frac{1}{2n} || \bold{y-Xw}||^2
+\ell (\matht{X,y,w}) = \frac{1}{2n} || \matht{y-Xw}||^2
 $$
 
 3. 求解最优*** w\****
 
 $$
-\ \ \ \frac{\partial}{\partial \bold{w}} \ell (\bold{X,y,w}) = 0
-\\\Leftrightarrow \frac{1}{n}(\bold{y-Xw})^T\bold{X} = 0
-\\\Leftrightarrow  \bold{w^*} = (\bold{X}^T \bold{X})^{-1}\bold{X}^T \bold{y}
+\ \ \ \frac{\partial}{\partial \matht{w}} \ell (\matht{X,y,w}) = 0
+\\\Leftrightarrow \frac{1}{n}(\matht{y-Xw})^T\matht{X} = 0
+\\\Leftrightarrow  \matht{w^*} = (\matht{X}^T \matht{X})^{-1}\matht{X}^T \matht{y}
 $$
 
  
@@ -160,25 +160,27 @@ $$
 #### 8.4 梯度下降法
 
 **损失平面**：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$
-<img src="https://qilu-yuan.github.io/figure/LinearRegression/2.png" alt="2" style="zoom: 30%;" />
+
+<img src="https://qilu-yuan.github.io/figure/LinearRegression/2.png" alt="2" style="zoom: 50%;" />
 
 如何从Large *L*寻找到 Small *L*？
-<img src="https://qilu-yuan.github.io/figure/LinearRegression/3.png" alt="3" style="zoom: 30%;" />
+
+<img src="https://qilu-yuan.github.io/figure/LinearRegression/3.png" alt="3" style="zoom: 50%;" />
 
 
 梯度下降法：<br>
 
-o 随机选择一个初始的 $w^0$<br>
+o 随机选择一个初始的 $w^0$ 
 
-o 计算$w^0$处*L*的微分 $\frac{\partial L}{\partial w}|_{w = w^0}$ <br>
+o <br>计算$w^0$处*L*的微分 $\frac{\partial L}{\partial w}|_{w = w^0}$
 
-o 斜率为正：增加 $w^0$<br>
+o <br>斜率为正：增加 $w^0$
 
-   斜率为负：减小$w^0$<br>
+   <br>斜率为负：减小$w^0$
 
-o 更新*w*: $w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}$ ($\eta$:学习率)<br>
+o <br>更新*w*: $w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}$ ($\eta$:学习率)
 
-o 不断迭代更新$w$：直至收敛<br>
+o <br>不断迭代更新$w$：直至收敛
 
 ##### 学习率
 
@@ -189,11 +191,11 @@ o 不断迭代更新$w$：直至收敛<br>
 ##### 梯度：标量对向量的微分
 
 $$
-\bold{x}= \begin{bmatrix}
+\matht{x}= \begin{bmatrix}
  x_1\\x_2
 \\.\\.\\.
 \\x_n
-\end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \bold x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
+\end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \matht x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
 $$
 
 
