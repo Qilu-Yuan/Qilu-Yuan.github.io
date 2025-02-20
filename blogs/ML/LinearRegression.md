@@ -69,7 +69,7 @@ one-hot编码<br>
 2. 线性模型有一个**n维权重**和一个**标量偏差**<br>
 
 $$
-\matht{w} = [w_1,w_2,...,w_n]^T , b
+\mathtt{w} = [w_1,w_2,...,w_n]^T , b
 $$
 
 3. 输出是输入的**加权和**<br>
@@ -131,28 +131,28 @@ $$
 
 <img src="https://qilu-yuan.github.io/figure/LinearRegression/1.png" alt="1" style="zoom: 30%;" />
 
-多元线性回归的一般形式为：$y=<\matht{w},\matht{x}>+b$<br>
+多元线性回归的一般形式为：$y=<\mathtt{w},\mathtt{x}>+b$<br>
 
 1. 首先添加一列全为1的特征，同时给权重向量也添加一个维度值为b，即：<br>
 
 $$
-\matht{X} \gets [\matht{X},1] \ \ \matht{w} \gets \begin{bmatrix}
-\matht{w}\\ b
+\mathtt{X} \gets [\mathtt{X},1] \ \ \mathtt{w} \gets \begin{bmatrix}
+\mathtt{w}\\ b
 \end{bmatrix}
 $$
 
 2. 损失函数：<br>
 
 $$
-\ell (\matht{X,y,w}) = \frac{1}{2n} || \matht{y-Xw}||^2
+\ell (\mathtt{X,y,w}) = \frac{1}{2n} || \mathtt{y-Xw}||^2
 $$
 
 3. 求解最优*** w\****
 
 $$
-\ \ \ \frac{\partial}{\partial \matht{w}} \ell (\matht{X,y,w}) = 0
-\\\Leftrightarrow \frac{1}{n}(\matht{y-Xw})^T\matht{X} = 0
-\\\Leftrightarrow  \matht{w^*} = (\matht{X}^T \matht{X})^{-1}\matht{X}^T \matht{y}
+\ \ \ \frac{\partial}{\partial \mathtt{w}} \ell (\mathtt{X,y,w}) = 0
+\\\Leftrightarrow \frac{1}{n}(\mathtt{y-Xw})^T\mathtt{X} = 0
+\\\Leftrightarrow  \mathtt{w^*} = (\mathtt{X}^T \mathtt{X})^{-1}\mathtt{X}^T \mathtt{y}
 $$
 
  
