@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /blogs/ML/LinearRegression/index.html
-title: 线性回归
+title: 线性模型
 ---
 
+
+# 线性模型
 
 ## 线性回归
 
@@ -222,6 +224,7 @@ $$
 $$
 \frac{\partial L}{\partial w}|_{w = w^0} \approx \frac{1}{b} \sum_{i=1}^b \frac{\partial L_i}{\partial w}|_{w = w^0}
 $$
+
 批量大小b是另一个超参数，b的选择：b越大，梯度的估计越准确，但计算复杂度也越高；b越小，梯度的估计越不准确，但计算复杂度越低<br>
 
 
