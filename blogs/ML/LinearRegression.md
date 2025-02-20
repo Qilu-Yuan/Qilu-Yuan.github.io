@@ -170,7 +170,7 @@ $$
 
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/3.png" class="floatpic"> <br>
 
-梯度下降法：<br>
+**梯度下降法：**<br>
 
 1.随机选择一个初始的 $w^0$ 
 
