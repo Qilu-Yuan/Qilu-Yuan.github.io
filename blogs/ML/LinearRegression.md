@@ -191,11 +191,11 @@ o <br>不断迭代更新$w$：直至收敛
 ##### 梯度：标量对向量的微分
 
 $$
-\matht{x}= \begin{bmatrix}
+\mathtt{x}= \begin{bmatrix}
  x_1\\x_2
 \\.\\.\\.
 \\x_n
-\end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \matht x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
+\end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \mathtt x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
 $$
 
 
