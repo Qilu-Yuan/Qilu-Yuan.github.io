@@ -24,12 +24,14 @@ I am interested in the field of computational simulations of glass formation for
 
 My current research focuses on polymer physics glass formation and dynamics. My interests are on the Molecular Dynamics simulation of polymer glass formation and dynamics, and the development of machine learning methods to understand and predict the glassy dynamics of polymer systems. I am also interested in the application of machine learning to other areas of material science.
 
+---
 
 ## Education
 
 - **Ph.D. Candidate** in Polymer Chemistry and Physics, [University of Science and Technology of China](http://www.ustc.edu.cn/), 2021 - Present<br>
 - **B.S.** in Polymer Materials and Engineering, [Ocean University of China](https://www.ouc.edu.cn/), 2017 - 2021<br>
 
+---
 
 ## Skills
 
