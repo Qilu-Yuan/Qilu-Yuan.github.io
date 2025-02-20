@@ -159,7 +159,10 @@ $$
 
 #### 8.4 梯度下降法
 
-**损失平面**：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$
+**损失平面**：
+$$
+w^*,b^*=arg\ \ce{min}_{w,b}\ L
+$$
 
 <br><img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" class="floatpic"> <br>
 
