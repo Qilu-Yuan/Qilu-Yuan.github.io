@@ -45,12 +45,6 @@ $$
 RMSE = \sqrt{\frac{1}{m} \sum_{i=1}^{m} (h_\theta(x^{(i)}) - y^{(i)})^2}
 $$
 
-$$
-\begin{tikzpicture}
-  \draw (0,0) -- (4,0);
-\end{tikzpicture}
-$$
-
 ### 5. 线性回归的应用场景
 
 线性回归是一种简单而有效的回归算法，可以用于各种应用场景，包括但不限于：<br>
