@@ -86,19 +86,19 @@ $$
 
 ### 8.2 损失函数 （loss function）
 
-1. 目的 衡量预测值与真实值之间的差异<br>
-2. 假设真实值为 $y$， 估计值为 $\hat{y}$ , 可以比较<br>
+1.目的 衡量预测值与真实值之间的差异<br>
+2.假设真实值为 $y$， 估计值为 $\hat{y}$ , 可以比较<br>
 
 $$
 e_{MAE} = |y-\hat{y}|\ 平均绝对误差 
 e_{MSE} = (y-\hat{y})^2\ 均方误差
 $$
 
-3. 假设有 n 个样本，损失$L = \frac{1}{n}\sum_n e_n$<br>
+3.假设有 n 个样本，损失$L = \frac{1}{n}\sum_n e_n$<br>
 
-4. 损失L是关于w和b的函数：$L(w,b)$ <br>
+4.损失L是关于w和b的函数：$L(w,b)$ <br>
 
-5. 优化目标：找到使得损失函数最小的参数 $w$ 和$b$：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$ <br>
+5.优化目标：找到使得损失函数最小的参数 $w$ 和$b$：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$ <br>
 
 
 
@@ -106,34 +106,34 @@ $$
 
 以**一元线性回归**为例：<br>
 
-1. 定义损失函数：$L(w,b)= \frac{1}{n} \sum_{i=1}^n (y_i - (wx_i+b))^2$<br>
+1.定义损失函数：$L(w,b)= \frac{1}{n} \sum_{i=1}^n (y_i - (wx_i+b))^2$<br>
 
-2. 求使得损失函数最小的 w 和 b，令偏导数=0<br>
+2.求使得损失函数最小的 w 和 b，令偏导数=0<br>
 
 $$
 \frac{\partial L}{\partial w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\ 
 \frac{\partial L}{\partial b} = -2\cdot \frac{1}{n} \sum_{i=1}^n(y_i -w x_i-b)=0
 $$
 
-3. 求解方程组，得到w和b的表达式为：<br>
+3.求解方程组，得到w和b的表达式为：<br>
 
 $$
 w = \frac {\sum_{i=1}^n (x_i -\bar x)(y_i -\bar y)}{\sum_{i=1}^n (x_i -\bar x)^2}\\
 b = \bar y -w \bar x
 $$
 
-4. 将数据点带入，即可得到线性回归方程 $y= wx+b$<br>
+4.将数据点带入，即可得到线性回归方程 $y= wx+b$<br>
 
-5. 得到预测值<br>
+5.得到预测值<br>
   
 
 最小二乘法的一般解法：<br>
 
-<img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" class="floatpic">
+<img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" class="floatpic"><br>
 
 多元线性回归的一般形式为：$y=<\mathtt{w},\mathtt{x}>+b$<br>
 
-1. 首先添加一列全为1的特征，同时给权重向量也添加一个维度值为b，即：<br>
+1.首先添加一列全为1的特征，同时给权重向量也添加一个维度值为b，即：<br>
 
 $$
 \mathtt{X} \gets [\mathtt{X},1] \ \ \mathtt{w} \gets \begin{bmatrix}
@@ -141,13 +141,13 @@ $$
 \end{bmatrix}
 $$
 
-2. 损失函数：<br>
+2.损失函数：<br>
 
 $$
 \ell (\mathtt{X,y,w}) = \frac{1}{2n} || \mathtt{y-Xw}||^2
 $$
 
-3. 求解最优*** w\****
+3.求解最优*** w\****
 
 $$
 \ \ \ \frac{\partial}{\partial \mathtt{w}} \ell (\mathtt{X,y,w}) = 0
