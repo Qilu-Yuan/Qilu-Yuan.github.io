@@ -161,7 +161,7 @@ $$
 
 **损失平面**：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$
 
-<img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" class="floatpic"> <br>
+<br><img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" class="floatpic"> <br>
 
 如何从Large *L*寻找到 Small *L*？
 
