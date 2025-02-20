@@ -129,7 +129,7 @@ $$
 
 最小二乘法的一般解法：<br>
 
-<img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" class="floatpic"><br>
+<img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" width="100" height="100" alt="AltText" /<br>
 
 多元线性回归的一般形式为：$y=<\mathtt{w},\mathtt{x}>+b$<br>
 
@@ -164,11 +164,11 @@ $$
 w^*,b^*=arg\ min_{w,b}\ L
 $$
 
-<br><img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" class="floatpic"> <br>
+<br><img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" width="100" height="100" alt="AltText" / <br>
 
 如何从Large *L*寻找到 Small *L*？
 
-<img src="https://qilu-yuan.github.io/Figure/LinearRegression/3.png" class="floatpic"> <br>
+<img src="https://qilu-yuan.github.io/Figure/LinearRegression/3.png" width="100" height="100" alt="AltText" / <br>
 
 **梯度下降法：**<br>
 
