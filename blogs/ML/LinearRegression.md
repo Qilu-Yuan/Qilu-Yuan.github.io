@@ -111,8 +111,8 @@ $$
 2. 求使得损失函数最小的 w 和 b，令偏导数=0<br>
 
 $$
-\frac{\part L}{\part w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\ 
-\frac{\part L}{\part b} = -2\cdot \frac{1}{n} \sum_{i=1}^n(y_i -w x_i-b)=0
+\frac{\partial L}{\partial w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\ 
+\frac{\partial L}{\partial b} = -2\cdot \frac{1}{n} \sum_{i=1}^n(y_i -w x_i-b)=0
 $$
 
 3. 求解方程组，得到w和b的表达式为：<br>
@@ -150,7 +150,7 @@ $$
 3. 求解最优*** w\****
 
 $$
-\ \ \ \frac{\part}{\part \bold{w}} \ell (\bold{X,y,w}) = 0
+\ \ \ \frac{\part}{\partial \bold{w}} \ell (\bold{X,y,w}) = 0
 \\\Leftrightarrow \frac{1}{n}(\bold{y-Xw})^T\bold{X} = 0
 \\\Leftrightarrow  \bold{w^*} = (\bold{X}^T \bold{X})^{-1}\bold{X}^T \bold{y}
 $$
@@ -189,11 +189,11 @@ o 不断迭代更新$w$：直至收敛<br>
 ##### 梯度：标量对向量的微分
 
 $$
-\bold x= \begin{bmatrix}
+\bold{x}= \begin{bmatrix}
  x_1\\x_2
 \\.\\.\\.
 \\x_n
-\end{bmatrix}           \bigtriangledown f_x(\bold{x}) = \frac{\part y}{\part \bold x} = \left[ \frac{\part y}{\part x_1}, \frac{\part y}{\part  x_2}, ..., \frac{\part y}{\part  x_n} \right]
+\end{bmatrix}           \bigtriangledown f_x(\bold{x}) = \frac{\partial y}{\partial \bold x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
 $$
 
 
