@@ -54,7 +54,7 @@ links:
 timezone: China/Changchun
 future: true
 highlighter: rouge
-# markdown: kramdown
+markdown: kramdown
 # markdown: redcarpet
 # pygments: true
 
@@ -86,8 +86,8 @@ disqus:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
-minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-classes: wide
+# classes: wide
 
 # Latest update in 2023/12/10 by Hanlin Cai.
