@@ -161,28 +161,25 @@ $$
 
 **损失平面**：$w^*,b^*=arg\ \ce{min}_{w,b}\ L$
 
-
-
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/2.png" class="floatpic">
 
 如何从Large *L*寻找到 Small *L*？
 
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/3.png" class="floatpic">
 
-
 梯度下降法：<br>
 
-o 随机选择一个初始的 $w^0$ 
+随机选择一个初始的 $w^0$ 
 
-o <br>计算$w^0$处*L*的微分 $\frac{\partial L}{\partial w}|_{w = w^0}$
+<br>计算$w^0$处*L*的微分 $\frac{\partial L}{\partial w}|_{w = w^0}$
 
-o <br>斜率为正：增加 $w^0$
+<br>斜率为正：增加 $w^0$
 
-   <br>斜率为负：减小$w^0$
+<br>斜率为负：减小$w^0$
 
-o <br>更新*w*: $w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}$ ($\eta$:学习率)
+<br>更新*w*: $w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}$ ($\eta$:学习率)
 
-o <br>不断迭代更新$w$：直至收敛
+<br>不断迭代更新$w$：直至收敛
 
 ##### 学习率
 
