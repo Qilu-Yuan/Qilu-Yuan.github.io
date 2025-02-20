@@ -111,7 +111,9 @@ $$
 2.求使得损失函数最小的 w 和 b,令偏导数=0<br>
 
 $$
-\frac{\partial L}{\partial w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\ 
+\frac{\partial L}{\partial w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\
+$$
+$$ 
 \frac{\partial L}{\partial b} = -2\cdot \frac{1}{n} \sum_{i=1}^n(y_i -w x_i-b)=0
 $$
 
@@ -119,6 +121,8 @@ $$
 
 $$
 w = \frac {\sum_{i=1}^n (x_i -\bar x)(y_i -\bar y)}{\sum_{i=1}^n (x_i -\bar x)^2}\\
+$$
+$$
 b = \bar y -w \bar x
 $$
 
