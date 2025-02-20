@@ -127,7 +127,7 @@ $$
 5.得到预测值<br>
   
 
-最小二乘法的一般解法:<br>
+**最小二乘法的一般解法:**<br>
 
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" width="500" height="500" alt="AltText" /><br>
 
