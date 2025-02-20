@@ -170,7 +170,7 @@ $$
 
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/3.png" width="500" height="500" alt="AltText" /> <br>
 
-**梯度下降法：**<br>
+**梯度下降法:**<br>
 
 1.随机选择一个初始的 $w^0$ 
 
@@ -180,9 +180,7 @@ $$
 \frac{\partial L}{\partial w}|_{w = w^0}
 $$
 
-<br>3.斜率为正：增加 $w^0$
-
-<br>斜率为负：减小$w^0$
+<br>3.斜率为正：增加 $w^0$; 斜率为负：减小$w^0$
 
 <br>4.更新*w*: 
 $$
