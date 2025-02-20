@@ -108,26 +108,26 @@ $$
 
 1.定义损失函数：$L(w,b)= \frac{1}{n} \sum_{i=1}^n (y_i - (wx_i+b))^2$<br>
 
-2.求使得损失函数最小的 w 和 b，令偏导数=0<br>
+2.求使得损失函数最小的 w 和 b,令偏导数=0<br>
 
 $$
 \frac{\partial L}{\partial w} = -2\cdot \frac{1}{n} \sum_{i=1}^n x_i(y_i -w x_i-b)=0\\ 
 \frac{\partial L}{\partial b} = -2\cdot \frac{1}{n} \sum_{i=1}^n(y_i -w x_i-b)=0
 $$
 
-3.求解方程组，得到w和b的表达式为：<br>
+3.求解方程组，得到w和b的表达式为:<br>
 
 $$
 w = \frac {\sum_{i=1}^n (x_i -\bar x)(y_i -\bar y)}{\sum_{i=1}^n (x_i -\bar x)^2}\\
 b = \bar y -w \bar x
 $$
 
-4.将数据点带入，即可得到线性回归方程 $y= wx+b$<br>
+4.将数据点带入,即可得到线性回归方程 $y= wx+b$<br>
 
 5.得到预测值<br>
   
 
-最小二乘法的一般解法：<br>
+最小二乘法的一般解法:<br>
 
 <img src="https://qilu-yuan.github.io/Figure/LinearRegression/1.png" width="500" height="500" alt="AltText" /><br>
 
