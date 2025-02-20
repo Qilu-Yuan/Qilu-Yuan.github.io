@@ -177,7 +177,11 @@ $$
 
 <br>斜率为负：减小$w^0$
 
-<br>更新*w*: $w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}$ ($\eta$:学习率)
+<br>更新*w*: 
+$$
+w^1 \Leftarrow w^0-\eta \frac{\partial L}{\partial w}|_{w = w^0}
+$$ 
+($\eta$:学习率)
 
 <br>不断迭代更新$w$：直至收敛
 
