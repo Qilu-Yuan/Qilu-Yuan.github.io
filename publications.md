@@ -10,6 +10,8 @@ title: Publications
 
 <br>
 
+(6)Y. Cao; **Q.-L. Yuan**; Q. Chen; W.-S. Xu\*, Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, *Macromolecules*, 2024, accepted.<br>
+
 (5) J. F. Douglas\*; **Q.-L. Yuan**; J. Zhang; H. Zhang\*; W.-S. Xu\*, A dynamical system approach to relaxation in glass-forming liquids, *Soft Matter*, 2024, 20 (46), 9140-9160.<br>
 
 (4) **Q.-L. Yuan**; X. Xu; J. F. Douglas\*; W.-S. Xu\*, Understanding Relaxation in the Kob-Andersen Liquid Based on Entropy, String, Shoving, Localization, and Parabolic Models, *The Journal of Physical Chemistry B*, 2024, 128 (44), 10999-11021.<br>
