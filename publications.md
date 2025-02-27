@@ -4,14 +4,12 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
   <title>Publications</title>
   <style>
     body {
-      font-family: sans-serif;
-      line-height: 1.4;
+      line-height: 1;
       margin: 20px;
       font-size: 14px; /* Smaller font size */
     }
@@ -23,7 +21,11 @@ title: Publications
     .publication {
       text-indent: -1em; /* Negative indent for the hanging effect */
       padding-left: 1em; /* Add padding to compensate for the indent */
-      margin-bottom: 0.5em; /* Add some spacing between entries */
+      margin-bottom: 0.75em; /* Add some spacing between entries */
+    }
+    .publication br {
+      display: block; /* Ensure <br> creates a line break */
+      margin-bottom: 0.5em; /* Add space after each line break */
     }
   </style>
 </head>
