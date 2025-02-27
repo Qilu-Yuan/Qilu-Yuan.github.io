@@ -4,29 +4,13 @@ permalink: /publications/index.html
 title: Publications
 ---
 
+> (†: equal contribution, *: corresponding author)
 
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        /* 悬挂缩进样式（仅作用于正文段落） */
-        .markdown-content p {
-            text-indent: -1.5em;
-            padding-left: 1.5em;
-            margin: 0 0 1.5em;
-        }
-    </style>
-</head>
-<body>
-    <article class="markdown-content">
-
-<p> (†: equal contribution, *: corresponding author)</p>
-
-<h2> Publications</h2>
+## Publications
 
 <br>
 
-<p>(6)Y. Cao; **Q.-L. Yuan**; Q. Chen; W.-S. Xu\*, Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, *Macromolecules*, 2024, accepted.<br>
+(6)Y. Cao; **Q.-L. Yuan**; Q. Chen; W.-S. Xu\*, Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, *Macromolecules*, 2024, accepted.<br>
 
 (5) J. F. Douglas\*; **Q.-L. Yuan**; J. Zhang; H. Zhang\*; W.-S. Xu\*, A dynamical system approach to relaxation in glass-forming liquids, *Soft Matter*, 2024, 20 (46), 9140-9160.<br>
 
@@ -36,11 +20,10 @@ title: Publications
 
 (2) X.-Y. Song; Z.-Y. Yang; **Q.-L. Yuan**; S.-W. Li; Z.-Q. Tang; Y.-T. Dong; S.-C. Jiang\*; W.-S. Xu\*, Understanding Mass Dependence of Glass Formation in Ring Polymers, *Chinese Journal of Polymer Science*, 2023, 41 (9), 1447-1461.<br>
 
-(1) **袁琦璐**; 杨镇岳; 徐文生\*, 高分子玻璃化熵理论研究进展, 中国科学:化学, 2023, 53 (4), 616-627.<br></p>
+(1) **袁琦璐**; 杨镇岳; 徐文生\*, 高分子玻璃化熵理论研究进展, 中国科学:化学, 2023, 53 (4), 616-627.<br>
 
 ---
-</body>
-</html>
+
 
 
 
