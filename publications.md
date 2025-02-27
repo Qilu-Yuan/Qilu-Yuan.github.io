@@ -8,16 +8,6 @@ title: Publications
 
 ## Publications
 
-<style>
-  .hanging-indent {
-    text-indent: -1.5em;  /* 调整该值以设置悬挂缩进的大小 */
-    padding-left: 1.5em;  /* 确保剩余部分有适当的填充 */
-  }
-</style>
-
-<div class="hanging-indent">
-<br>
-
 (6)Y. Cao; **Q.-L. Yuan**; Q. Chen; W.-S. Xu\*, Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, *Macromolecules*, 2024, accepted.<br>
 
 (5) J. F. Douglas\*; **Q.-L. Yuan**; J. Zhang; H. Zhang\*; W.-S. Xu\*, A dynamical system approach to relaxation in glass-forming liquids, *Soft Matter*, 2024, 20 (46), 9140-9160.<br>
@@ -30,12 +20,4 @@ title: Publications
 
 (1) **袁琦璐**; 杨镇岳; 徐文生\*, 高分子玻璃化熵理论研究进展, 中国科学:化学, 2023, 53 (4), 616-627.<br>
 
-</div>
-
-
-
 ---
-
-
-
-
