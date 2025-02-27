@@ -8,16 +8,6 @@ title: Publications
 <head>
   <title>Publications</title>
   <style>
-    body {
-      font-family: sans-serif;
-      line-height: 1.4;
-      margin: 20px;
-      font-size: 14px;
-    }
-
-    h2 {
-      margin-top: 30px;
-    }
 
     .publication {
       text-indent: -1em;
