@@ -29,8 +29,6 @@ title: Publications
 </head>
 <body>
 
-  <p>>(†: equal contribution, *: corresponding author)</p>
-
   <h2>Publications</h2>
 
   <br>
