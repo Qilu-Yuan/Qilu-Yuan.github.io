@@ -22,28 +22,26 @@ title: Publications
     .publication {
       text-indent: -1em;
       padding-left: 1em;
-      margin-bottom: 1em; /* Increased margin-bottom significantly */
-      padding-bottom: 0.5em; /* Add padding below the text */
-      border-bottom: 1px solid #eee; /* Optional: Add a subtle line between entries */
+      margin-bottom: 1.5em; /* Increased margin-bottom even more */
+      padding-bottom: 0.5em;
+      /* border-bottom: 1px solid #eee;  Removed border for cleaner look */
     }
 
-    .publication:last-child {
-        border-bottom: none; /* Remove border from the last entry */
-    }
+    /* .publication:last-child {
+        border-bottom: none;  Removed border for cleaner look
+    } */
 
     .publication br {
       display: block;
-      margin-bottom: 0.25em; /* Reduced margin for line breaks within entries */
+      margin-bottom: 0.25em;
     }
   </style>
 </head>
 <body>
 
-  <h1>Publications</h1>
+  <h2>Publications</h2>
 
   <p>(†: equal contribution, *: corresponding author)</p>
-
-  <h2>Publications</h2>
 
   <br>
 
@@ -61,4 +59,3 @@ title: Publications
 
 </body>
 </html>
-
