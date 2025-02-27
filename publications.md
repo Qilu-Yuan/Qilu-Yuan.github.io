@@ -9,9 +9,10 @@ title: Publications
   <title>Publications</title>
   <style>
     body {
-      line-height: 1;
+      font-family: sans-serif;
+      line-height: 1.4;
       margin: 20px;
-      font-size: 14px; /* Smaller font size */
+      font-size: 14px;
     }
 
     h2 {
@@ -19,13 +20,20 @@ title: Publications
     }
 
     .publication {
-      text-indent: -1em; /* Negative indent for the hanging effect */
-      padding-left: 1em; /* Add padding to compensate for the indent */
-      margin-bottom: 0.75em; /* Add some spacing between entries */
+      text-indent: -1em;
+      padding-left: 1em;
+      margin-bottom: 1em; /* Increased margin-bottom significantly */
+      padding-bottom: 0.5em; /* Add padding below the text */
+      border-bottom: 1px solid #eee; /* Optional: Add a subtle line between entries */
     }
+
+    .publication:last-child {
+        border-bottom: none; /* Remove border from the last entry */
+    }
+
     .publication br {
-      display: block; /* Ensure <br> creates a line break */
-      margin-bottom: 0.5em; /* Add space after each line break */
+      display: block;
+      margin-bottom: 0.25em; /* Reduced margin for line breaks within entries */
     }
   </style>
 </head>
@@ -43,7 +51,7 @@ title: Publications
 
   <p class="publication">(5) J. F. Douglas*; <b>Q.-L. Yuan</b>; J. Zhang; H. Zhang*; W.-S. Xu*; A dynamical system approach to relaxation in glass-forming liquids, <i>Soft Matter</i>, 2024, 20 (46), 9140-9160.</p>
 
-  <p class="publication">(4) <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Understanding Relaxation in the Kob-Andersen Liquid Based on Entropy, String, Shoving, Localization, and Parabolic Models, <i>The Journal of Physical Chemistry B</i>, 2024, 128 (44), 10999-11021.</p>
+  <p class="publication">(4) <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Understanding Relaxation in the Kob-Andersen Liquid Based on Entropy, String, Shoving, Localization, and Parabolic Models, <i>The Journal of Physical Chemistry B</i>, 2024, 128 (44), 10999-10021.</p>
 
   <p class="publication">(3) <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Influence of Density and Pressure on Glass Formation in the Kob–Andersen Model, <i>The Journal of Physical Chemistry B</i>, 2024, 128 (40), 9889-9904.</p>
 
@@ -53,5 +61,4 @@ title: Publications
 
 </body>
 </html>
-
 
