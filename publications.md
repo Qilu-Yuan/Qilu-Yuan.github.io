@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/index.html
 title: Publications
 ---
-
+>(†: equal contribution, *: corresponding author)
 <html>
 <head>
   <title>Publications</title>
@@ -29,9 +29,9 @@ title: Publications
 </head>
 <body>
 
-  <h2>Publications</h2>
+  <p>>(†: equal contribution, *: corresponding author)</p>
 
-  <p>(†: equal contribution, *: corresponding author)</p>
+  <h2>Publications</h2>
 
   <br>
 
