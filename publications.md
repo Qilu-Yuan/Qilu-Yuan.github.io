@@ -21,7 +21,7 @@ title: Publications
 
 <article class="markdown-content">
 
-
+{{
 > (†: equal contribution, *: corresponding author)
 
 ## Publications
@@ -41,3 +41,4 @@ title: Publications
 ---
 
 </article>
+}}
