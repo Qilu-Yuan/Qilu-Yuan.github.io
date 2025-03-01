@@ -16,17 +16,15 @@ title: 线性回归
 
 在机器学习中，如果引入常量x0=1 ，线性回归通过学习一组参数 w_i，使预测输出
 $$
-f(\bold{x})=\bold{w}^T\bold{x}=\sum_{i=0}^n w_i\cdot x_i
+f(\mathtt{x})=\mathtt{w}^T\mathtt{x}=\sum_{i=0}^n w_i\cdot x_i
 $$
 成为实例属性的线性组合。当实例只有一个属性时，关系为二维直线；属性较多时，关系为 *n* 维空间中的超平面。<br>
-
-
 
 ### 2 误差
 
 在训练集上确定系数 w_i 时，核心指标是预测输出*f*(*x*)与真实输出*y*之间的误差。在线性回归中，误差以**均方误差**（MSE）定义。当模型为二维直线时，均方误差即预测值与真实值之间的**欧几里得距离**，也就是向量差的 $L^2$范数。以使均方误差最小化为目标的求解方法称为**最小二乘法**，其表达式为：
 $$
-\bold{w}^*=\mathrm{arg min}_w \sum_{k=1}(\bold{w}^T \bold{x}_k - y_k)^2=\mathrm{arg min}_w \sum_{k=1}||\bold{w}^T \bold{x}_k - y_k||^2
+\mathtt{w}^*=\mathrm{arg min}_w \sum_{k=1}(\mathtt{w}^T \mathtt{x}_k - y_k)^2=\mathrm{arg min}_w \sum_{k=1}||\mathtt{w}^T \mathtt{x}_k - y_k||^2
 $$
 式中每个$x_k$代表训练集中的一个样本。**在单变量线性回归任务中，最小二乘法的作用就是找到一条直线，使所有样本到直线的欧式距离之和最小**。<br>
 
@@ -37,11 +35,11 @@ $$
 
 单个样本 x_k 出现的概率等于噪声 $y_k - f(x_k)$ 的概率，而所有独立样本同时出现的概率是每个样本概率的乘积，表达式为：
 $$
-p(\bold{x}_1,\bold{x}_2,...\bold{x}_k,...|\bold{w})=\prod_k \frac{1}{\sqrt{2\pi}\sigma}\exp\left[ -\frac{1}{2\sigma^2}(\bold{w}^T \bold{x}_k - y_k)^2\right]
+p(\mathtt{x}_1,\mathtt{x}_2,...\mathtt{x}_k,...|\mathtt{w})=\prod_k \frac{1}{\sqrt{2\pi}\sigma}\exp\left[ -\frac{1}{2\sigma^2}(\mathtt{w}^T \mathtt{x}_k - y_k)^2\right]
 $$
 **最大似然估计**的目标是最大化上述表达式。为简化计算，对表达式取对数（不改变单调性），将其转化为求和形式。经过运算，最大化问题等效于最小化：
 $$
-\sum_{k=1}(\bold{w}^T \bold{x}_k - y_k)^2
+\sum_{k=1}(\mathtt{w}^T \mathtt{x}_k - y_k)^2
 $$
 这正是**最小二乘法**的目标。因此，最小二乘法与最大似然估计在正态分布噪声假设下是一致的。因此，**对于单变量线性回归而言，在误差函数服从正态分布的情况下，从几何意义出发的最小二乘法与从概率意义出发的最大似然估计是等价的**。<br>
 
@@ -57,7 +55,7 @@ $$
 
 多元线性回归的参数**w** 也可用最小二乘法估计，最优解同样用偏导数确定，多元线性回归的最优参数为：
 $$
-\bold{w}^*=(\bold{X}^T \bold{X})^{-1}\bold{X}^T\bold{y}
+\mathtt{w}^*=(\mathtt{X}^T \mathtt{X})^{-1}\mathtt{X}^T\mathtt{y}
 $$
 式中的**X**是由所有样本x=(x0;x1;x2;...;xn) 的转置共同构成的矩阵,但这一表达式只在矩阵(**X^T X**) 的逆矩阵存在时成立。在大量复杂的实际任务中，每个样本中属性的数目甚至会超过训练集中的样本总数，此时求出的最优解**w^* ** 就不是唯一的，解的选择将依赖于学习算法的归纳偏好。<br>
 
@@ -69,7 +67,7 @@ $$
 
    - 添加参数二范数惩罚项：即最小化的对象变为 
      $$
-     |y_k- \bold{w}^T \bold{x}_k|^2 +|\Gamma \bold{w}|^2 ，
+     |y_k- \mathtt{w}^T \mathtt{x}_k|^2 +|\Gamma \mathtt{w}|^2 ，
      $$
      其中的 Γ被称为**季霍诺夫矩阵**，通常可以简化为一个常数<br>
 
@@ -81,7 +79,7 @@ $$
 
    - 即最小化的对象变为 
      $$
-     |y_k- \bold{w}^T \bold{x}_k|^2 +\lambda|\bold{w}|_1 ，
+     |y_k- \mathtt{w}^T \mathtt{x}_k|^2 +\lambda|\mathtt{w}|_1 ，
      $$
      其中的 λ 是一个常数。<br>
 
