@@ -38,6 +38,8 @@ title: Blogs
 
 - [线性回归](https://qilu-yuan.github.io/blogs/ML/LinearRegression/)
 
+- [朴素贝叶斯方法](https://qilu-yuan.github.io/blogs/ML/NaiveBayes/)
+
 - [逻辑回归](https://qilu-yuan.github.io/blogs/ML/LogisticRegression/)
 
 ### 分子动力学模拟
