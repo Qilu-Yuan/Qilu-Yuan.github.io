@@ -103,11 +103,15 @@ $$
 softmax(y_i) = \frac{e^{y_i}}{\sum_{j=1}^n e^{y_j}}
 $$
 
+<br>
+
 4.Softmax回归的一般形式:<br>
 
 $$
 p(y=k|\mathtt{x}) = Softmax(\mathtt{w}^T\mathtt{x})\\
 $$
+
+<br>
 
 5.由于输出的是概率，所以损失函数是交叉熵损失函数<br>
 
