@@ -48,6 +48,8 @@ title: Blogs
 
 - [集成学习](https://qilu-yuan.github.io/blogs/ML/EnsembleLearning/)
 
+- [聚类分析](https://qilu-yuan.github.io/blogs/ML/Clustering/)
+
 ### 分子动力学模拟
 
 - [Gromacs模拟包含若干条完全相同的聚合物链的熔体](https://qilu-yuan.github.io/blogs/MD/GMXAA/)
