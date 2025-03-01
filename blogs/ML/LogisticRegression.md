@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /blogs/ML/LinearRegression/index.html
-title: 线性回归
+permalink: /blogs/ML/LogisticRegression/index.html
+title: 逻辑回归
 ---
 
 ## 线性回归
