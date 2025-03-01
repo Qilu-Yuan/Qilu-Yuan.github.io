@@ -38,6 +38,8 @@ title: Blogs
 
 - [线性回归](https://qilu-yuan.github.io/blogs/ML/LinearRegression/)
 
+- [逻辑回归](https://qilu-yuan.github.io/blogs/ML/LogisticRegression/)
+
 ### 分子动力学模拟
 
 - [Gromacs模拟包含若干条完全相同的聚合物链的熔体](https://qilu-yuan.github.io/blogs/MD/GMXAA/)
