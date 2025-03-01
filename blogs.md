@@ -46,6 +46,8 @@ title: Blogs
 
 - [支持向量机](https://qilu-yuan.github.io/blogs/ML/SupportVectorMachine/)
 
+- [集成学习](https://qilu-yuan.github.io/blogs/ML/EnsembleLearning/)
+
 ### 分子动力学模拟
 
 - [Gromacs模拟包含若干条完全相同的聚合物链的熔体](https://qilu-yuan.github.io/blogs/MD/GMXAA/)
