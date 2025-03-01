@@ -275,3 +275,39 @@ $$
 稀疏性思想跨领域应用广泛（如数据压缩、信号处理）。
 
 ---
+
+### 6 代码实现
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# 生成数据
+np.random.seed(0)
+X = np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.rand(100, 1)
+
+# 添加偏置项
+X_b = np.c_[np.ones((100, 1)), X]
+
+# 初始化参数
+theta_best = np.random.rand(2, 1)
+
+# 梯度下降
+n_epochs = 1000
+t0, t1 = 5, 50
+
+def learning_schedule(t):
+    return t0 / (t + t1)
+
+for epoch in range(n_epochs):
+    random_index = np.random.randint(len(X_b))
+    xi = X_b[random_index:random_index + 1]
+    yi = y[random_index:random_index + 1]
+
+    gradients = 2 * xi.T.dot(xi.dot(theta_best) - yi)
+    eta = learning_schedule(epoch)
+    theta_best -= eta * gradients
+
+print(theta_best)
+```
