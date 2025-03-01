@@ -196,9 +196,7 @@ $$
 
 $$
 \mathtt{x}= \begin{bmatrix}
- x_1\\x_2
-\\.\\.\\.
-\\x_n
+ x_1\\x_2\\.\\.\\.\\x_n
 \end{bmatrix}           \bigtriangledown f_x(\mathtt{x}) = \frac{\partial y}{\partial \mathtt x} = \left[ \frac{\partial y}{\partial x_1}, \frac{\partial y}{\partial  x_2}, ..., \frac{\partial y}{\partial  x_n} \right]
 $$
 
