@@ -4,12 +4,7 @@ permalink: /blogs/ML/LinearRegression/index.html
 title: 线性回归
 ---
 
-
-
-
 ## 线性回归
-
-
 
 ### 1 线性回归基本概念
 
