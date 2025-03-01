@@ -27,7 +27,7 @@ $$
 在训练集上确定系数 w_i 时，核心指标是预测输出*f*(*x*)与真实输出*y*之间的误差。在线性回归中，误差以**均方误差**（MSE）定义。当模型为二维直线时，均方误差即预测值与真实值之间的**欧几里得距离**，也就是向量差的 $L^2$范数。以使均方误差最小化为目标的求解方法称为**最小二乘法**，其表达式为：<br>
 
 $$
-\mathtt{w}^*=\mathrm{arg min}_w \sum_{k=1}(\mathtt{w}^T \mathtt{x}_k - y_k)^2=\mathrm{arg min}_w \sum_{k=1}||\mathtt{w}^T \mathtt{x}_k - y_k||^2
+\mathtt{w}^*=arg min_w \sum_{k=1}(\mathtt{w}^T \mathtt{x}_k - y_k)^2=arg min_w \sum_{k=1}||\mathtt{w}^T \mathtt{x}_k - y_k||^2
 $$
 
 式中每个$x_k$代表训练集中的一个样本。**在单变量线性回归任务中，最小二乘法的作用就是找到一条直线，使所有样本到直线的欧式距离之和最小**。<br>
