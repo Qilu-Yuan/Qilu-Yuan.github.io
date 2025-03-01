@@ -42,6 +42,8 @@ title: Blogs
 
 - [逻辑回归](https://qilu-yuan.github.io/blogs/ML/LogisticRegression/)
 
+- [决策树](https://qilu-yuan.github.io/blogs/ML/DecisionTree/)
+
 ### 分子动力学模拟
 
 - [Gromacs模拟包含若干条完全相同的聚合物链的熔体](https://qilu-yuan.github.io/blogs/MD/GMXAA/)
