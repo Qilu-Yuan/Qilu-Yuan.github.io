@@ -33,7 +33,7 @@ title: Publications
 
   <br>
 
-  <p class="publication">6. Y. Cao; <b>Q.-L. Yuan</b>; Q. Chen; W.-S. Xu*; Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, <i>Macromolecules</i>, 2024, doi:10.1021/acs.macromol.4c03136.</p>
+  <p class="publication">6. Y. Cao; <b>Q.-L. Yuan</b>; Q. Chen; W.-S. Xu*; Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, <i>Macromolecules</i>, 2024, 58, 2829-2849.</p>
 
   <p class="publication">5. J. F. Douglas*; <b>Q.-L. Yuan</b>; J. Zhang; H. Zhang*; W.-S. Xu*; A dynamical system approach to relaxation in glass-forming liquids, <i>Soft Matter</i>, 2024, 20 (46), 9140-9160.</p>
 
