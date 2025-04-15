@@ -91,3 +91,32 @@ mpirun -np 4 ./lmp_mpi -in in.lammps
 ```
 
 其中，`-np 4`表示使用4个进程运行LAMMPS，`-in in.lammps`表示使用`in.lammps`文件作为输入文件。<br>
+
+
+## open-mpi 安装
+
+```bash
+wget https://download.open-mpi.org/release/open-mpi/v2.1/openmpi-2.1.6.tar.gz
+tar -zxvf openmpi-4.1.5.tar.gz
+cd openmpi-4.1.5
+./configure --prefix=/usr/local/openmpi #安装路径根据自己要求更改
+make
+make install
+#在～/.bashrc中添加
+#export PATH=/usr/local/openmpi/bin:$PATH
+mpirun --version
+```
+
+## fftw3 安装
+
+```bash
+wget http://www.fftw.org/fftw-3.3.8.tar.gz
+tar -zxvf fftw-3.3.8.tar.gz
+cd fftw-3.3.8
+./configure --prefix=/usr/local/fftw3 --enable-mpi --enable-threads#安装路径根据自己要求更改
+make
+make install
+#在～/.bashrc中添加
+#export LD_LIBRARY_PATH=/usr/local/fftw3:$LD_LIBRARY_PATH
+mpirun --version
+```
