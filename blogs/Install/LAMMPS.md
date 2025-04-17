@@ -117,6 +117,6 @@ cd fftw-3.3.8
 make
 make install
 #在～/.bashrc中添加
-#export LD_LIBRARY_PATH=/usr/local/fftw3:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/usr/local/fftw3/lib:$LD_LIBRARY_PATH
 mpirun --version
 ```
