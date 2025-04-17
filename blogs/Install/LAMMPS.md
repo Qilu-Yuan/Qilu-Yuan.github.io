@@ -110,7 +110,7 @@ mpirun --version
 ## fftw3 安装
 
 ```bash
-wget http://www.fftw.org/fftw-3.3.8.tar.gz
+wget https://fftw.org/pub/fftw/fftw-3.3.8.tar.gz
 tar -zxvf fftw-3.3.8.tar.gz
 cd fftw-3.3.8
 ./configure --prefix=/usr/local/fftw3 --enable-mpi --enable-threads#安装路径根据自己要求更改
