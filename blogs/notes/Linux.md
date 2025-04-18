@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/Linux/index.html
+permalink: /blogs/notes/Linux/index.html
 title: Linux常用命令与操作
 ---
 

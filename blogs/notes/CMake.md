@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CMake/index.html
+permalink: /blogs/notes/CMake/index.html
 title: CMake学习笔记及简易使用流程
 ---
 

@@ -16,9 +16,11 @@ title: Blogs
 
 ### 软件,系统使用教程
 
-- [CMake学习笔记及简易使用流程](https://qilu-yuan.github.io/blogs/CMake/)
+- [CMake学习笔记及简易使用流程](https://qilu-yuan.github.io/blogs/notes/CMake/)
 
-- [Linux常用命令与操作](https://qilu-yuan.github.io/blogs/Linux/)
+- [Linux常用命令与操作](https://qilu-yuan.github.io/blogs/notes/Linux/)
+
+- [Mac电脑使用CommanderOnePro在Finder上挂载sftp服务器，终端直接打开远程路径](https://qilu-yuan.github.io/blogs/notes/Mac_sftp/)
 
 ### 程序语言学习
 
