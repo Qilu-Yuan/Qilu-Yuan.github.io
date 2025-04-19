@@ -22,6 +22,8 @@ title: Blogs
 
 - [Mac电脑使用CommanderOnePro在Finder上挂载sftp服务器，终端直接打开远程路径](https://qilu-yuan.github.io/blogs/notes/Mac_sftp/)
 
+- [Tar命令的使用](https://qilu-yuan.github.io/blogs/notes/Tar/)
+
 ### 程序语言学习
 
 - [C语言基本语法暨学习笔记](https://qilu-yuan.github.io/blogs/ProgLang/Clang/)
