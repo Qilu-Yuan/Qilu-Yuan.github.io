@@ -10,6 +10,8 @@ title: Blogs
 
 - [在无法连接外网的服务器上，无root权限的情况下安装gcc](https://qilu-yuan.github.io/blogs/Install/Gcc/)
 
+- [在无法连接外网的服务器上，设置代理以连接网络](https://qilu-yuan.github.io/blogs/Install/linux-web/)
+
 - [使用Makefile安装软件的一般流程](https://qilu-yuan.github.io/blogs/Install/Makefile/)
 
 - [并行版本的LAMMPS简易安装教程](https://qilu-yuan.github.io/blogs/Install/LAMMPS/)
