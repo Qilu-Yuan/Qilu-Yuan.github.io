@@ -33,6 +33,8 @@ title: Publications
 
   <br>
 
+  <p class="publication">7. <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Physical Origin of the Mass Dependence of Glass Transition Temperature and Fragility of Polymer Liquids, <i>Macromolecules</i>, 2025, in press.</p>
+
   <p class="publication">6. Y. Cao; <b>Q.-L. Yuan</b>; Q. Chen; W.-S. Xu*; Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, <i>Macromolecules</i>, 2024, 58, 2829-2849.</p>
 
   <p class="publication">5. J. F. Douglas*; <b>Q.-L. Yuan</b>; J. Zhang; H. Zhang*; W.-S. Xu*; A dynamical system approach to relaxation in glass-forming liquids, <i>Soft Matter</i>, 2024, 20 (46), 9140-9160.</p>
