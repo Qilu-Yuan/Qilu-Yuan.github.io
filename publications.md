@@ -33,7 +33,7 @@ title: Publications
 
   <br>
 
-  <p class="publication">7. <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Physical Origin of the Mass Dependence of Glass Transition Temperature and Fragility of Polymer Liquids, <i>Macromolecules</i>, 2025, in press.</p>
+  <p class="publication">7. <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Physical Origin of the Mass Dependence of Glass Transition Temperature and Fragility of Polymer Liquids, <i>Macromolecules</i>, 2025, 58, 9528-9545.</p>
 
   <p class="publication">6. Y. Cao; <b>Q.-L. Yuan</b>; Q. Chen; W.-S. Xu*; Influence of Charge Interaction Strength and Counterion Size on the Structure and Dynamics of Simulated Telechelic Ionomer Melts, <i>Macromolecules</i>, 2025, 58, 2829-2849.</p>
 
