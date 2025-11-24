@@ -109,6 +109,8 @@ mpirun --version
 
 ## fftw3 安装
 
+注意：fftw3需要在Makefile中指定安装路径，否则使用的是lammps自带的fft库，性能较差。具体操作请参考LAMMPS官方文档。
+
 ```bash
 wget https://fftw.org/pub/fftw/fftw-3.3.8.tar.gz
 tar -zxvf fftw-3.3.8.tar.gz
