@@ -25,7 +25,7 @@ title: 决策树
 下图展示了一个简单的决策树示例，用于判断是否接受某一工作，根节点为月薪，叶子节点为是否接受该工作<br>
 
 <center>
-<img src="https://qilu-yuan.github.io/Figure/DecisionTree/1.jpg" width="500" height="500" alt="AltText" />
+<img src="https://qilu-yuan.github.io/Figure/DecisionTree/fig1.png" width="500" height="500" alt="AltText" />
 </center>
 
 ---
@@ -77,7 +77,7 @@ CART分类树的构建过程包括以下步骤：
 6. **生成叶节点**：当达到停止条件时，将节点标记为叶节点，并根据多数类原则确定其类别标签。<br>
 
 <center>
-<img src="https://qilu-yuan.github.io/Figure/DecisionTree/2.jpg" width="500" height="500" alt="AltText" />
+<img src="https://qilu-yuan.github.io/Figure/DecisionTree/fig2.png" width="500" height="300" alt="AltText" />
 </center>
 
 上图是一个例子，展示了CART分类树的构建过程。该例子为100个样本的二分类过程，通过若干次特征划分，成功分离出了两种类别<br>
