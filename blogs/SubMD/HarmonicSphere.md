@@ -53,7 +53,7 @@ n!! = n \cdot (n - 2) \cdot (n - 4) \cdots
 $$
 - 递归关系
 $$
-P_{l}^{m}(x) = \frac{(2l - 1)x P_{l - 1}^{m}(x) - (l + m - 1) P_{l - 2}^{m}(x)}{l - m}
+(l-m)P_{l}^{m}(x) = (2l - 1)x P_{l - 1}^{m}(x) - (l + m - 1) P_{l - 2}^{m}(x)
 $$
 <br>
 
