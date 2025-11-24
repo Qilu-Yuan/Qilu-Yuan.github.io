@@ -10,7 +10,6 @@ owner:
   avatar: qilu.jpg
   # bio: Two roads diverged in woods, I took the one less traveled by.
   email: yuanqilu@foxmail.com
-  email2: yuanql@ciac.ac.cn
   cv: https://qilu-yuan.github.io/file/CV_Wilson.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
@@ -93,5 +92,3 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # classes: wide
-
-# Latest update in 2023/12/10 by Hanlin Cai.
