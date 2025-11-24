@@ -112,3 +112,41 @@ $$
 
 
 ---
+
+### 5.总结
+<br>
+决策树是一种直观且强大的分类与回归工具。通过特征选择、树生成和剪枝等步骤，决策树能够有效地从数据中学习分类规则。CART算法作为一种经典的决策树方法，利用基尼系数和平方误差进行划分，生成二叉树模型。剪枝技术则帮助决策树避免过拟合，提升泛化能力。理解和应用决策树算法，对于解决实际问题具有重要意义。
+
+### 6.Scikit-learn中的决策树实现
+<br>
+在Scikit-learn中，可以使用`DecisionTreeClassifier`和`DecisionTreeRegressor`类来实现决策树分类和回归。下面是一个简单的示例，展示如何使用决策树进行分类任务,使用数据集为鸢尾花数据集，该数据集包含150个样本，每个样本有4个特征，分别为花萼长度、花萼宽度、花瓣长度和花瓣宽度，目标变量为鸢尾花的类别，共有3个类别。
+
+代码如下：
+
+```python
+from sklearn.datasets import load_iris
+from sklearn import tree
+from sklearn.model_selection import train_test_split
+
+#----------------数据准备-----------------------
+iris = load_iris()                                              # 加载数据
+
+#划分训练集和测试集
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, 
+    test_size=0.1, random_state=12)
+
+clf = tree.DecisionTreeClassifier()                             # sk-learn的决策树模型
+clf = clf.fit(X_train, y_train)                           # 用数据训练树模型
+
+
+
+#---------------模型预测结果--------------------
+
+pred_target_prob = clf.predict_proba(X_test)                    # 预测类别概率
+pred_target = clf.predict(X_test)                               # 预测类别
+
+#---------------打印结果------------------------
+print("真实类别：\n", y_test)
+print("预测类别概率：\n", pred_target_prob)
+print("预测类别：\n", pred_target)
+```
