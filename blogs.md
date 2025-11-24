@@ -69,3 +69,7 @@ title: Blogs
 - [使用VMD可视化lammpsdata文件并渲染出图片简易教程](https://qilu-yuan.github.io/blogs/SubMD/VMD/)
 
 - [Scipy中的curve_fit函数拟合数据的流程](https://qilu-yuan.github.io/blogs/SubMD/Curvefit/)
+
+### 数学与物理
+
+- [球谐函数的代码实现](https://qilu-yuan.github.io/blogs/SubMD/HarmonicSphere/)
