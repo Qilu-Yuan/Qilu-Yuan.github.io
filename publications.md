@@ -33,7 +33,7 @@ title: Publications
 
   <br>
 
-  <p class="publication">7. <b>Q.-L. Yuan</b>; J. F. Douglas; W.-S. Xu*; Generalized Entropy Theory of Glass Formation in Graft Polymer Melts Having Variable Grafting Density, <i>Macromolecules</i>, in press.</p>
+  <p class="publication">8. <b>Q.-L. Yuan</b>; J. F. Douglas; W.-S. Xu*; Generalized Entropy Theory of Glass Formation in Graft Polymer Melts Having Variable Grafting Density, <i>Macromolecules</i>, in press.</p>
 
   <p class="publication">7. <b>Q.-L. Yuan</b>; X. Xu; J. F. Douglas*; W.-S. Xu*; Physical Origin of the Mass Dependence of Glass Transition Temperature and Fragility of Polymer Liquids, <i>Macromolecules</i>, 2025, 58, 9528-9545.</p>
 
