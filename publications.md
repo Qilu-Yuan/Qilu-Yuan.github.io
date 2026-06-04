@@ -33,6 +33,8 @@ title: Publications
 
   <br>
 
+  <p class="publication">10. <b>Q.-L. Yuan</b>; Y.-T. Dong; Z. Yang; J. F. Douglas*; F. W. Starr*; Z.-Y. Sun*; W.-S. Xu*; Elucidating the origin of decoupling in glass-forming liquids through high temperature activation free energies, <i>National Science Review</i>, 2026, in press.</p>
+
   <p class="publication">9. S. Wu; X. Zeng; <b>Q.-L. Yuan</b>; H. Yang; W.-S. Xu; Q. Chen*; Effect of Tacticity on Segmental and Chain Dynamics of Poly(methyl methacrylate), <i>Macromolecules</i>, 2026, 59, 1371–1382.</p>
 
   <p class="publication">8. <b>Q.-L. Yuan</b>; J. F. Douglas; W.-S. Xu*; Generalized Entropy Theory of Glass Formation in Graft Polymer Melts Having Variable Grafting Density, <i>Macromolecules</i>, 2026, 59, 1542-1553.</p>
